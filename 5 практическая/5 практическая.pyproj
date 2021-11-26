@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d6064ce9-9e20-4985-8da4-bdba8b441c17</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Практическая 5 задание 1.py</StartupFile>
+    <StartupFile>5 практическая 2 задание.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="5 практическая 2 задание.py" />
+    <Compile Include="5pr2\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5pr2\class1.py" />
+    <Compile Include="5pr2\class2.py" />
     <Compile Include="geometry\planimetry.py" />
     <Compile Include="geometry\stereometry.py" />
     <Compile Include="geometry\__init__.py">
@@ -31,6 +37,7 @@
     <Compile Include="Практическая 5 задание 1.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="5pr2\" />
     <Folder Include="geometry\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
